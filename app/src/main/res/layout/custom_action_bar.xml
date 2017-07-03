@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/addressbook"
+        android:layout_marginRight="5dp"
+        android:scaleType="fitXY" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:inputType="textPersonName"
+       android:hint="Search Here"
+       android:ems="20"
+        android:lines="1"
+        android:background="@drawable/custom_search_edittext"
+        android:drawableRight="@drawable/ic_search_white"
+        android:textColor="#ffffff"
+        android:textColorHint="#90ffffff"
+        android:padding="6dp"
+        android:id="@+id/edtSearch" />
+
+</LinearLayout>
